@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Chelsea Market", system-ui;
+    /* background-color: #007bff; */
+    background: linear-gradient(45deg, #3787e9, #55d610); /* Gradient background */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #7cc00f;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+  
+  .joke-container {
+    margin: 20px 0;
+    padding: 20px;
+    /* border: 2px solid #ddd; */
+    border-radius: 5px;
+  }
+  
+  .joke-text {
+    font-size: 24px;
+  }
+  
+  #joke-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    /* background-color: #007bff; */
+    background-color: #3787e9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    font-family: "Chelsea Market", system-ui;
+  }
+  
+  #joke-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  h1 {
+    animation: jump 1s infinite; /* Apply the animation */
+  }
+  
